@@ -45,7 +45,7 @@ public class PersonServiceImpl implements PersonService {
 
     /**
      * Created By zhangkun01 on 16:17 2017/8/22.
-     * 批量查询测试数据
+     * 批量插入测试数据
      */
     @Override
     public void bulkIndex(List<Person> personList) {
