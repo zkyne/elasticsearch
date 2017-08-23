@@ -69,9 +69,9 @@ public class PersonController {
     public List<Person> query(){
         double lat = 39.929986;
         double lon = 116.395645;
-        Long nowTime = System.currentTimeMillis();
+        Long startTime = System.currentTimeMillis();
         List<Person> personList = personService.query(lat,lon);
-        System.out.println("耗时：" + (System.currentTimeMillis() - nowTime));
+        System.out.println("耗时：" + (System.currentTimeMillis() - startTime));
         return personList;
     }
 
